@@ -1,5 +1,9 @@
 # News Telegram Scheduler
 
+Logic that we are sending to one person. You can implement multiple shipments or additional functions through modification. 
+
+한 명에게 발송하고 있는 로직입니다. 수정을 통해 다중 발송 또는 추가 기능을 구현 하시면 될 것 같습니다.
+
 A Spring Boot project that receives news articles through Naver Search API and sends daily updates via a Telegram bot.
 
 스프링 부트 프로젝트로, 네이버 검색 API를 통해 뉴스 기사를 수집하고 텔레그램 봇을 통해 매일 업데이트를 전송합니다.
@@ -81,4 +85,4 @@ public class NaverApiService {
     private static final String CHAT_ID = "YOUR_CHAT_ID_OR_GROUP_ID";
 ```
 
-3. 텔레그램 봇 또는 그룹에 메시지를 보내 채팅 ID를 확인하세요. 필요한 경우 텔레그램 API의 /getUpdates 메서드를 사용해 채팅 ID를 확인할 수 있습니다.
+3. 텔레그램 봇 또는 그룹에 메시지를 보내 채팅 ID를 확인하세요. 필요한 경우 텔레그램 API의 /getUpdates 메서드를 사용해 채팅 ID를 확인할 
